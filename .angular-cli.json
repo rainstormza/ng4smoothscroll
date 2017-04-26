@@ -19,6 +19,7 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/smooth-scrollbar/dist/smooth-scrollbar.css",
         "styles.css"
       ],
       "scripts": [],
