@@ -23,6 +23,6 @@ export class AppComponent implements OnInit, AfterViewInit {
     let elem = this.scrolltest.nativeElement;
     console.log(elem);
     // Scrollbar.init(document.getElementById('my-scrollbar'), this.options);
-    // Scrollbar.init(elem, this.options);
+    Scrollbar.init(elem, this.options);
   }
 }
